@@ -1,0 +1,16 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.outlet {
+  margin-top: 64px;
+}
+
+@media (max-width: 960px) {
+  .loader img {
+    height: 320px;
+  }
+}
